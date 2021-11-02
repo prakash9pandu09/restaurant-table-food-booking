@@ -1,0 +1,61 @@
+.ordersContainer {
+  overflow: auto;
+  height: calc(100vh - 5em) !important;
+  margin: 0.35em 0.35em 0.35em 0;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.ordersHeading {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 1em;
+}
+
+.ordersCustomerCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 1em;
+  box-shadow: 0 4px 8px 0 #edf2f7, 0 6px 20px 0 #edf2f7;
+}
+.ordersCustomerName {
+  font-weight: bold;
+  padding: 0 0 0.5em 0;
+}
+.ordersCustomerItems {
+  height: 3em;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.ordersCustomerItemName {
+  width: 11em;
+  cursor: pointer;
+  background-color: #edf2f7;
+  border-radius: 5px;
+  margin: 0.5em;
+  padding: 0.5em;
+  box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+  transition: all 0.4s ease-in-out;
+}
+.ordersCustomerItemName:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.ordersTakeForm {
+  padding: 0 2em;
+  display: flex;
+  align-items: center;
+}
+.ordersForCustomers {
+  overflow: auto;
+  padding: 1em;
+}

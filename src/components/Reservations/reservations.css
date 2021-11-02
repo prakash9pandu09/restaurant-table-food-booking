@@ -1,0 +1,42 @@
+.reservationsContainer {
+  height: calc(100vh - 5em) !important;
+  margin: 0.35em 0.35em 0.35em 0;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.reservationsHeading {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 1em;
+}
+.reservationsForm {
+  padding: 0 2em;
+  display: flex;
+}
+.reservedCustomersContainer {
+  overflow: auto;
+}
+.reservedCustomersHeading {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 1em;
+}
+.reservedCustomerCard {
+  padding: 0.6em 2em;
+  font-size: 1em;
+}
+.reservedCustomerNameCard {
+  cursor: pointer;
+  padding: 0.6em;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 #edf2f7, 0 6px 20px 0 #edf2f7;
+  transition: all 0.4s ease-in-out;
+}
+.reservedCustomerNameCard:hover {
+  transform: scale(1.1, 1.1);
+}

@@ -1,0 +1,19 @@
+.headerContainer {
+  background-color: #ffffff;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+.headerProductLogo {
+  padding: 0 1em;
+}
+
+.headerProductName {
+  padding: 0 1em;
+  flex: 1;
+}
+.headerUserInfo {
+  padding: 0 1em;
+  display: flex;
+  flex-direction: column;
+}

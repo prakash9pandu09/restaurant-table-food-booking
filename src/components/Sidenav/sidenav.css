@@ -1,0 +1,47 @@
+.sidenavContainer {
+  background-color: #353d45;
+  color: #edf2f7;
+  width: 12em;
+  height: calc(100vh - 5em) !important;
+  margin: 0.35em;
+}
+.sidenavContainerOnClick {
+  background-color: #353d45;
+  color: #edf2f7;
+  width: 3em;
+  height: calc(100vh - 5em) !important;
+  margin: 0.35em;
+}
+.sidenavList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.sidenavListItem {
+  cursor: pointer;
+  padding: 1em;
+}
+.active {
+  background-color: blue;
+  color: white;
+}
+
+.svg-inline--fa {
+  width: 1em;
+  padding: 0 1em 0 0;
+}
+.sideNavMenuItemName {
+  display: none;
+}
+
+.sideNavToggleIcon {
+  position: absolute;
+  bottom: 1em;
+  padding-left: 1em;
+}
+
+@media (max-width: 320px) {
+  .sidenavContainer {
+    display: none;
+  }
+}
