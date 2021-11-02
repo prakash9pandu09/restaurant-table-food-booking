@@ -1,8 +1,8 @@
 .ordersContainer {
   overflow: auto;
   height: calc(100vh - 5em) !important;
-  margin: 0.35em 0.35em 0.35em 0;
-  background-color: white;
+  margin: 0.5em 0.5em 0.5em 0;
+  background-color: #f5f7fa;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -17,6 +17,8 @@
 }
 
 .ordersCustomerCard {
+  margin: 1em;
+  background-color: white;
   display: flex;
   flex-direction: column;
   border-radius: 5px;

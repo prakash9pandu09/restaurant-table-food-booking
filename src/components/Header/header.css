@@ -6,13 +6,25 @@
 }
 .headerProductLogo {
   padding: 0 1em;
+  cursor: pointer;
+  font-size: 1.75em;
+}
+.headerProductLogo a {
+  color: #262e36;
 }
 
 .headerProductName {
   padding: 0 1em;
   flex: 1;
 }
+.headerProductName a {
+  color: #262e36;
+}
+.headerProductAppName {
+  cursor: pointer;
+}
 .headerUserInfo {
+  height: 2em;
   padding: 0 1em;
   display: flex;
   flex-direction: column;

@@ -1,7 +1,7 @@
 .reservationsContainer {
   height: calc(100vh - 5em) !important;
-  margin: 0.35em 0.35em 0.35em 0;
-  background-color: white;
+  margin: 0.5em 0.5em 0.5em 0;
+  background-color: #f5f7fa;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -15,8 +15,9 @@
   padding: 1em;
 }
 .reservationsForm {
-  padding: 0 2em;
+  padding: 2em;
   display: flex;
+  background-color: white;
 }
 .reservedCustomersContainer {
   overflow: auto;
@@ -31,10 +32,11 @@
   font-size: 1em;
 }
 .reservedCustomerNameCard {
+  background-color: white;
   cursor: pointer;
   padding: 0.6em;
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 #edf2f7, 0 6px 20px 0 #edf2f7;
+  box-shadow: 0 4px 8px 0 #dde3ed, 0 6px 20px 0 #dde3ed;
   transition: all 0.4s ease-in-out;
 }
 .reservedCustomerNameCard:hover {

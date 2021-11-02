@@ -2,7 +2,7 @@ body {
   font-family: Lato;
   padding: 0;
   margin: 0;
-  background-color: #edf2f7;
+  background-color: #dde3ed;
   color: #353d45;
 }
 .homeContainer {
@@ -46,6 +46,7 @@ input {
   border: none;
   padding: 1em 0 0 0;
   border-bottom: 2px solid #edf2f7;
+  background-color: inherit;
 }
 input:focus {
   outline: none;
