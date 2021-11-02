@@ -8,7 +8,7 @@
 .sidenavContainerOnClick {
   background-color: #353d45;
   color: #edf2f7;
-  width: 3em;
+  width: 4em;
   height: calc(100vh - 5em) !important;
   margin: 0.35em;
 }
@@ -19,7 +19,7 @@
 }
 .sidenavListItem {
   cursor: pointer;
-  padding: 1em;
+  padding: 1.5em;
 }
 .active {
   background-color: blue;
@@ -28,7 +28,7 @@
 
 .svg-inline--fa {
   width: 1em;
-  padding: 0 1em 0 0;
+  padding: 0 1.5em 0 0;
 }
 .sideNavMenuItemName {
   display: none;
@@ -36,8 +36,8 @@
 
 .sideNavToggleIcon {
   position: absolute;
-  bottom: 1em;
-  padding-left: 1em;
+  bottom: 1.5em;
+  padding-left: 1.5em;
 }
 
 @media (max-width: 320px) {
