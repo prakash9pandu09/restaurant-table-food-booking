@@ -12,7 +12,9 @@
 .headerProductLogo a {
   color: #262e36;
 }
-
+.productInfo a {
+  color: #262e36;
+}
 .headerProductName {
   padding: 0 1em;
   flex: 1;
@@ -23,9 +25,20 @@
 .headerProductAppName {
   cursor: pointer;
 }
+.productInfo {
+  height: 1em;
+  width: 1em;
+  display: flex;
+  justify-content: center;
+}
 .headerUserInfo {
   height: 2em;
   padding: 0 1em;
   display: flex;
   flex-direction: column;
+}
+.verticalDevider {
+  width: 0.1em;
+  height: 2em;
+  background-color: #dde3ed;
 }

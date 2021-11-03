@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHotel } from '@fortawesome/free-solid-svg-icons';
+import { faHotel, faInfo, faUser } from '@fortawesome/free-solid-svg-icons';
 import './header.css';
 const Header = () => {
   return (
@@ -16,10 +16,17 @@ const Header = () => {
           <span className="headerProductAppName">JJJ FOODS AND SERVICES</span>
         </Link>
       </div>
+      <div className="productInfo">
+        <Link to="/productInfo">
+          <FontAwesomeIcon icon={faInfo} />
+        </Link>
+      </div>
+      <div className="verticalDevider"></div>
       <div className="headerUserInfo">
         <div className="headerUserInfoName">User Name</div>
         <div className="headerUserInfoRole">User Role</div>
       </div>
+      <FontAwesomeIcon icon={faUser} />
     </div>
   );
 };

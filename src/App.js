@@ -7,6 +7,8 @@ import Header from './components/Header/Header';
 import Sidenav from './components/Sidenav/Sidenav';
 import Home from './components/Home/Home';
 import Logout from './components/Logout/Logout';
+import NotFound from './components/NotFound/NotFound';
+import ProductInfo from './components/ProductInfo/ProductInfo';
 import { successFullLogin } from './features/userSlice';
 import './style.css';
 
@@ -29,6 +31,8 @@ const App = () => {
             <Switch>
               <Route path="/reservations" component={Reservations} />
               <Route path="/orders" component={Orders} />
+              <Route path="/productInfo" component={ProductInfo} />
+              <Route component={NotFound} />
             </Switch>
           </div>
         </>
