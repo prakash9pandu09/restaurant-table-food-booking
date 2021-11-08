@@ -36,6 +36,7 @@
   padding: 0 1em;
   display: flex;
   flex-direction: column;
+  font-size: 0.85em;
 }
 .verticalDevider {
   width: 0.1em;
